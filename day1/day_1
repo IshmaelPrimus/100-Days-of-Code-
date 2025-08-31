@@ -1,0 +1,18 @@
+# Band Name Generator Project  
+
+# print("Welcome to the Band Name Generator")
+# city =input ("What's the name of the city you grew up in?")
+# pet = input("whats your pet's name?")
+# print("Your Band name could be: " + city + " " + pet)
+
+
+# 🚗 Rental Car Garage Generator 
+import random
+print("Welcome to the Car Garage Generator")
+name = input("What is your name? ")
+color = input("What is your favorite color? ")
+
+# Extra Logic
+cars = ["Toyota", "Honda", "Ford", "Chevrolet", "BMW", "Mercedes", "Audi", "Volkswagen", "Hyundai", "Kia"]
+
+print( " Hello " + name + ", your car is a " + color + " " + random.choice(cars))
